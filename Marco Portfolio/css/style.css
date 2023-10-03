@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family:'poppins',sans-serif;
+  background-color:#000;
+  color:#fff;
+}
+ .container{
+   width: 100%;
+   height: 100vh;
+   box-sizing: border-box;
+}
+
+/* IDEA: TEXT + 4 CARD START */
+
+.box1{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.container_card,
+.container_text1{
+  flex-basis: 50%;
+}
+
+
+p{
+  color: #fff;
+  font-size:30px;
+  font-weight: lighter;
+}
+
+h5{
+  text-align: center;
+  display:block;
+  justify-content:space-around;
+  font-weight:100;
+  margin-top: 118px;
+  font-size:20px;
+}
+
+.name{
+  color: #11EF78;
+  font-weight:bold;
+}
+.card{
+  width: 250px;
+  height: 250px;
+  border: 1.5px solid white;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 20px 20px;
+  transition: transform 0.5s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  border: 1.5px solid #0DF078;
+}
+
+a{
+  text-decoration: none;
+}
+/* IDEA: TEXT + 4 CARD END */
+
+
+/* IDEA: TEXT + 3 CIRCLE START */
+
+.box2{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#p_03 {
+  padding-top:150px;
+  font-size: 35px;
+  font-weight:100;
+  margin:0;
+  text-transform: uppercase;
+}
+
+.management{
+  color: #11EF78;
+  font-weight:thin;
+}
+
+.market{
+text-decoration:underline 3px #11EF78;
+}
+
+.container_circle{
+  margin-top: 160px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.circle-box1 {
+    position:relative;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:300px;
+}
+
+.circle-box2 {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-box3 {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 220px;
+    height: 220px;
+    border: 2px solid #0C351A;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #11EF78;
+}
+
+.circle3 {
+    width:175px;
+    height:175px;
+    border: 3px solid #11EF78;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.circle3 p {
+    margin:8px;
+    text-align: center;
+  }
+
+/* IDEA: TEXT + 3 CIRCLE END */
+
+/* IDEA: CIRCLE IMAGE + TEXT START */
+
+.box3{
+  margin-top:300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.circle-box4 {
+ position: relative;
+ width: 260px;
+ height: 260px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left:40px;
+  }
+
+  .container_text3{
+    margin-left: 30px;
+  }
+
+ .circle {
+ position: absolute;
+ border-radius: 50%;
+  }
+
+ .circle01 {
+ width: 260px;
+ height: 260px;
+ border: 2px solid #0C351A;
+  }
+
+ .circle02 {
+ width: 240px;
+ height: 240px;
+ border: 2px solid #11EF78;
+  }
+
+ .circle03 {
+ width: 215px;
+ height: 215px;
+ border: 3px solid #11EF78;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  }
+
+ .circle03 img{
+  width: 200px;
+  height: 200px auto;
+  border-radius: 100px;
+  }
+
+
+  #p_04{
+    font-size: 35px;
+    font-weight:100;
+    margin:0;
+    text-transform: uppercase;
+    line-height: 45px;
+  }
+
+  /* IDEA: CIRCLE IMAGE + TEXT END */
+  /* IDEA: TEXT START */
+
+
+.container_text4{
+
+  text-align: right;
+  margin-right: 200px;
+  }
+
+#h3_01{
+  font-weight: lighter;
+  font-size: 60px;
+  color: #11EF78;
+  }
+
+#line01{
+  margin-top: 500px;
+}
+
+#p_05{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container_button{
+  text-align: right;
+}
+
+#button_01 {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    border-radius:25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#button_01:hover {
+    background-color: #FFF;
+    color: #000;
+}
+/* IDEA: TEXT END */
